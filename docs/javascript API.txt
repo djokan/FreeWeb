@@ -1,0 +1,18 @@
+API for javascript and database:
+
+send post request to xxx.fw/db for user database access, with parameters:
+	user= [username]
+	pass= [password]
+	sql= [query that will be executed]
+	type= [
+		"create database" => to create a user database |
+		"execute" => run a UPDATE, DELETE or INSERT command |
+		"query" => run a SELECT COMMAND |
+		]
+
+response format:
+
+[[error]] error message
+[[success]] result (if type="query")
+[[success]] (others)
+

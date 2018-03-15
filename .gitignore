@@ -1,0 +1,13 @@
+bin/
+websites/
+.idea/
+.settings/
+out/
+FreeWeb.iml
+.classpath
+.project
+*.mv.db
+log.txt
+test.html
+Proxy.pac
+*.fwf
